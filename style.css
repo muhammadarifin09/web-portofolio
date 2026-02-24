@@ -38,6 +38,10 @@ nav {
     font-size: 24px;
     font-weight: bold;
     transition: text-shadow 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
 }
 
 .logo:hover {
@@ -67,9 +71,15 @@ nav {
 }
 
 .menu-btn {
-    display: none;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* jarak icon & teks */
     cursor: pointer;
-    font-size: 24px;
+    font-weight: 500;
+}
+
+.menu-btn i {
+    font-size: 19px;
 }
 
 /* Hologram Effect */
