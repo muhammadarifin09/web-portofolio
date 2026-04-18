@@ -44,6 +44,27 @@ nav {
     padding: 15px 30px;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #00f7ff; /* bisa kamu sesuaikan sama tema */
+    letter-spacing: 1px;
+}
+
+.logo i {
+    font-size: 18px;
+    background: linear-gradient(45deg, #00f7ff, #4facfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo span {
+    color: white;
+}
+
 .logo:hover {
     text-shadow: 0 0 10px var(--glow-color);
 }
