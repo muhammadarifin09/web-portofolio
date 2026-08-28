@@ -41,7 +41,7 @@
         const texts = [
             " WEB DEVELOPER",
             "MOBILE APPS DEVELOPER",
-            "STUDENT",
+            "FRESH GRADUATE",
             "TECH ENTHUSIAST"
         ]
         
